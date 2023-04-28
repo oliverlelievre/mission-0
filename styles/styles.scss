@@ -1,0 +1,13 @@
+@use 'colors' as c;
+@use 'navbar';
+@use 'hero';
+@use 'listings';
+
+.main {
+  @include c.theme-colors($light-theme: false);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+

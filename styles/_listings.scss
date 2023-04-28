@@ -1,0 +1,123 @@
+@use 'colors' as c;
+@use 'media-queries' as m;
+@use 'utils' as u;
+
+.listing__container {
+    background-color: red;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &__header {
+        background-color: red;
+            width: 100%;
+            // text-align: center;
+             {
+                    font-size: 4em;
+                    text-transform: uppercase;
+                    font-size: 4rem;
+                    color: c.$standout-color;
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+                .sneakers__container {
+                    background-color: red;
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap: 40px;
+                    .sneaker__container {
+                            position: relative;
+                            width: u.toRem(250);;
+                            height: u.toRem(250);;
+                            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            padding: 20px 20px 40px;
+                            border-radius: 10px;
+                            transition: all 0.3s ease-in-out;
+                            background-color: red;
+                            // .container__details {
+                            //         width: 100%;
+                            //         display: flex;
+                            //         justify-content: space-between;
+                            //         .container__details h3 {
+                            //                 font-size: 2em;
+                            //                 text-transform: capitalize;
+                            //                 color: c.$standout-primary;
+                                        }
+                                }
+                        }
+                }
+        }
+
+
+
+
+// .listing__header{
+//     width: 100%;
+//     text-align: center;
+// }
+
+// .listing__header h1{
+//     font-size: 4em;
+//     text-transform: uppercase;
+//     font-size: 4rem;
+//         color: c.$standout-color;
+//         margin: 0;
+//     text-align: center;
+// }
+
+// .sneakers__container {
+//     width: 100%;
+//     height: 70%;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-around;
+//     align-items: center;
+//     gap: 40px;
+// }
+
+// .sneaker__container {
+//     position: relative;
+//     width: 300px;
+//     height: 500px;
+//     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     padding: 20px 20px 40px;
+//     border-radius: 10px;
+//     transition: all 0.3s ease-in-out;
+//     background-color: red;
+// }
+
+// .image {
+//     width: 100%;
+//     height: 60%;
+//     display: grid;
+//     place-items: center;
+//     background-color: orange;
+// }
+
+// .image img {
+//     width: 240px;
+// }
+
+// .container__details {
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .container__details h3 {
+//     font-size: 2em;
+//     text-transform: capitalize;
+//     color: c.$standout-primary;
+// }
